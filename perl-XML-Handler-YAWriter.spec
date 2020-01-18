@@ -1,6 +1,6 @@
 Name:           perl-XML-Handler-YAWriter
 Version:        0.23
-Release:        17%{?dist}
+Release:        18%{?dist}
 
 Summary:        Yet another Perl SAX XML Writer
 
@@ -65,6 +65,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.23-18
+- Mass rebuild 2013-12-27
+
 * Wed Nov 21 2012 Jitka Plesnikova <jplesnik@redhat.com> - 0.23-17
 - Update dependencies
 - Patch YAWriter.pm to declare correct POD encoding
